@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(235, 231, 231);
+    margin-left: 350px;
+    margin-right: 300px;
+}
+  
+h1 {
+    margin: 80px 40px 20px 0px;
+}
+
+hr {
+    height: 1px;
+    width: 50px;
+    margin: 0px;
+    color: black;
+}
+
+
+.darkMode {
+    background-color: rgb(52, 49, 49);
+
+}
+
+.darkMode div{
+    color: white
+}
+
+#appendToMe {
+    margin-top: 20px;
+}
+
+.name {
+    margin-right: 80px;
+}
+
+
+.inStock {
+    display: flex;
+    border: 1px inset black;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+  
+.inStock .name {
+    margin-left: 400px;
+    margin-bottom: 10px;
+    width: 110px;
+}
+  
+.inStock .price {
+    margin-bottom: 10px;
+}
+  
+.inStock .details {
+    margin-left: 180px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.darkMode .inStock {
+    background-color: rgb(77, 71, 71);
+}
+
+
+button {
+    display: flex;
+    border: 1px inset black;
+    padding: 4px;
+    border-radius: 5px;
+    width: auto;
+    font-size: 18px;
+    background-color: rgb(235, 231, 231);
+}
+
+.darkMode button {
+    background-color: rgb(52, 49, 49);
+    color: white;
+}
